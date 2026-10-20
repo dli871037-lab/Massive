@@ -54,8 +54,8 @@ int main() {
   }
 
   cout << "Sums of columns of P\n";
-  for (int Index = 0; Index < columnCount; ++Index) {
-    cout << columnSums[Index] << " ";
+  for (int columnSumsIndex = 0; columnSumsIndex < columnCount; ++columnSumsIndex) {
+    cout << columnSums[columnSumsIndex] << " ";
   }
   return 0;
 }
