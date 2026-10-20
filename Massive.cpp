@@ -14,7 +14,6 @@ int main() {
   int P[maxSize][maxSize];
   int rowCount, columnCount, countP;
 
-
   cout << "Enter the count of rows and columns in turn.\n";
 
   if (!(cin >> rowCount >> columnCount) || rowCount < 1 || rowCount > maxSize || columnCount < 1 || columnCount > maxSize) {
